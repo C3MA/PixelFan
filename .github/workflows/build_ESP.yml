@@ -1,0 +1,17 @@
+name: Build ESP Project
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+
+      - name: Build ESP Arduino project
+        uses: arduino/compile-sketches
