@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.274644264">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.274644264" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.274644264" name="Debug" parent="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug">
+					<folderInfo id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.274644264." name="/" resourcePath="">
+						<toolChain id="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.debug.401090761" name="MCU ARM GCC" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.debug">
+							<option id="com.st.stm32cube.ide.mcu.option.internal.toolchain.type.689999990" superClass="com.st.stm32cube.ide.mcu.option.internal.toolchain.type" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.base.gnu-tools-for-stm32" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.option.internal.toolchain.version.574362529" superClass="com.st.stm32cube.ide.mcu.option.internal.toolchain.version" value="7-2018-q2-update" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.814552310" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu" value="STM32G071KBTx" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.1044121722" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid" value="0" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.754078514" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid" value="0" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.296255105" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board" value="genericBoard" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1756641788" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults" value="com.st.stm32cube.ide.common.services.build.inputs.revA.1.0.0 || Debug || true || Executable || com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.base.gnu-tools-for-stm32 || STM32G071KBTx || 0 || arm-none-eabi- || ${gnu_tools_for_stm32_compiler_path} || ../Inc | ../Drivers/CMSIS/Include | ../Drivers/CMSIS/Device/ST/STM32G0xx/Include | ../Drivers/STM32G0xx_HAL_Driver/Inc | ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy || ../ ||  || STM32G071xx | USE_HAL_DRIVER ||  || Startup || Drivers | Src ||  || ${workspace_loc:/${ProjName}/STM32G071KBTX_FLASH.ld} || true" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform.204516935" isAbstract="false" osList="all" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform"/>
+							<builder buildPath="${workspace_loc:/PixelFan}/Debug" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder.839894332" managedBuildOn="true" name="Gnu Make Builder.Debug" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.748979200" name="MCU GCC Assembler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.1516044691" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.value.g3" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.includepaths.580355172" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.includepaths" valueType="includePath"/>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input.1404631906" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.830399788" name="MCU GCC Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.1546807663" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.value.g3" valueType="enumerated"/>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level.1289759649" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols.1918005103" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="STM32G071xx"/>
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="DEBUG"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.221933208" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../Inc"/>
+									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32G0xx/Include"/>
+									<listOptionValue builtIn="false" value="../Drivers/STM32G0xx_HAL_Driver/Inc"/>
+									<listOptionValue builtIn="false" value="../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy"/>
+								</option>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1727661886" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.1568545537" name="MCU G++ Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.1652705971" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.value.g3" valueType="enumerated"/>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level.608082792" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level" useByScannerDiscovery="false"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.1305108750" name="MCU GCC Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script.794381594" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script" value="${workspace_loc:/${ProjName}/STM32G071KBTX_FLASH.ld}" valueType="string"/>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.input.540552239" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.1558036426" name="MCU G++ Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script.78216537" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script" value="${workspace_loc:/${ProjName}/STM32G071KBTX_FLASH.ld}" valueType="string"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver.1179949966" name="MCU GCC Archiver" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size.725795722" name="MCU Size" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objdump.listfile.647477358" name="MCU Output Converter list file" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objdump.listfile"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.hex.2106307588" name="MCU Output Converter Hex" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.hex"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.binary.422987153" name="MCU Output Converter Binary" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.binary"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.verilog.1234946132" name="MCU Output Converter Verilog" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.verilog"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.srec.2141233142" name="MCU Output Converter Motorola S-rec" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.srec"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.symbolsrec.1774768859" name="MCU Output Converter Motorola S-rec with symbols" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.symbolsrec"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Startup"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1942774900">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1942774900" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1942774900" name="Release" parent="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release">
+					<folderInfo id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1942774900." name="/" resourcePath="">
+						<toolChain id="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.release.1702666497" name="MCU ARM GCC" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.release">
+							<option id="com.st.stm32cube.ide.mcu.option.internal.toolchain.type.1705003988" superClass="com.st.stm32cube.ide.mcu.option.internal.toolchain.type" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.base.gnu-tools-for-stm32" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.option.internal.toolchain.version.505004867" superClass="com.st.stm32cube.ide.mcu.option.internal.toolchain.version" value="7-2018-q2-update" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.1232492456" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu" value="STM32G071KBTx" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.1974833981" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid" value="0" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.389432250" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid" value="0" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.1468534259" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board" value="genericBoard" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.995481546" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults" value="com.st.stm32cube.ide.common.services.build.inputs.revA.1.0.0 || Release || false || Executable || com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.base.gnu-tools-for-stm32 || STM32G071KBTx || 0 || arm-none-eabi- || ${gnu_tools_for_stm32_compiler_path} || ../Inc | ../Drivers/CMSIS/Include | ../Drivers/CMSIS/Device/ST/STM32G0xx/Include | ../Drivers/STM32G0xx_HAL_Driver/Inc | ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy || ../ ||  || STM32G071xx | USE_HAL_DRIVER ||  || Startup || Drivers | Src ||  || ${workspace_loc:/${ProjName}/STM32G071KBTX_FLASH.ld} || true" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform.1865186216" isAbstract="false" osList="all" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform"/>
+							<builder buildPath="${workspace_loc:/PixelFan}/Release" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder.1531654053" managedBuildOn="true" name="Gnu Make Builder.Release" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.1637892306" name="MCU GCC Assembler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.423577484" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.value.g0" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.includepaths.1329787831" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.includepaths" valueType="includePath"/>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input.1865252873" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.696671592" name="MCU GCC Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.1510191588" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.value.g0" valueType="enumerated"/>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level.1705819456" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level.value.o3" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols.1825697381" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="STM32G071xx"/>
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.1006294425" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../Inc"/>
+									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32G0xx/Include"/>
+									<listOptionValue builtIn="false" value="../Drivers/STM32G0xx_HAL_Driver/Inc"/>
+									<listOptionValue builtIn="false" value="../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy"/>
+								</option>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.556998665" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.2116136937" name="MCU G++ Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.1234339901" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.value.g0" valueType="enumerated"/>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level.820286724" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level.value.o3" valueType="enumerated"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.812559097" name="MCU GCC Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script.2131772219" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script" value="${workspace_loc:/${ProjName}/STM32G071KBTX_FLASH.ld}" valueType="string"/>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.input.275705411" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.1055279995" name="MCU G++ Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script.563185620" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script" value="${workspace_loc:/${ProjName}/STM32G071KBTX_FLASH.ld}" valueType="string"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver.1994868162" name="MCU GCC Archiver" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size.971945519" name="MCU Size" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objdump.listfile.1655431967" name="MCU Output Converter list file" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objdump.listfile"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.hex.1696642387" name="MCU Output Converter Hex" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.hex"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.binary.465471008" name="MCU Output Converter Binary" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.binary"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.verilog.1431488500" name="MCU Output Converter Verilog" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.verilog"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.srec.1260886668" name="MCU Output Converter Motorola S-rec" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.srec"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.symbolsrec.527830461" name="MCU Output Converter Motorola S-rec with symbols" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.symbolsrec"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Startup"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="PixelFan.null.1201611358" name="PixelFan"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.819275639;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.819275639.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.927202346;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.195869700">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.827360441;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.827360441.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1381055918;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.937921077">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1249475298;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1249475298.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1076433632;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1273939214">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1995721097;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1995721097.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1404097515;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.322911006">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1696083444;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1696083444.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1580377844;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1223299597">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.161417421;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.161417421.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.2004063940;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1518820987">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1266766260;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1266766260.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1205652467;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.921952907">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1543644224;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1543644224.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.606007342;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.690802056">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.982949351;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.982949351.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1377232502;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1151724542">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2095260258;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2095260258.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.2032134828;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.534753526">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.2036622078;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.2036622078.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.126601733;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.78856085">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.103053535;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.103053535.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1704801866;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.231458067">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.972154122;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.972154122.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1727333199;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1132031264">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.247511727;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.247511727.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.256510391;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1248645738">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.845508410;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.845508410.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1347217660;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.287909766">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1159469943;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1159469943.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1284253252;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.831702788">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.534745522;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.534745522.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1948188569;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.553066648">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.2145648896;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.2145648896.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.152614482;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1591174133">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.125751282;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.125751282.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.2000562529;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.374309130">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.485671549;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.485671549.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1123618582;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1614178162">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1594492961;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1594492961.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.831699883;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1696941894">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.705935439;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.705935439.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.805310992;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1521135065">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.748897661;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.748897661.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1163687862;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.684848124">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1902038026;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1902038026.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.2065327885;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.703236449">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1640838577;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1640838577.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.257669870;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1645511250">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.545732892;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.545732892.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1054312935;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.148754704">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.519060158;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.519060158.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1749815791;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1036401504">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1026566162;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1026566162.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1660192675;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1350196662">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.191690686;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.191690686.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.777280402;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.2050721536">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2120350465;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2120350465.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1633208499;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.320179146">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1679949774;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1679949774.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1510320806;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.678052087">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1675572808;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1675572808.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1294701830;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1218757731">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1942774900;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1942774900.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.696671592;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.556998665">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1593555399;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1593555399.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1110855883;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.66025648">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1694774890;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1694774890.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.993627861;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.391490696">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1241867726;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1241867726.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.557638848;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1868821368">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1325420647;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1325420647.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1838191514;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1955253522">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.280990360;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.280990360.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.385197548;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1453094914">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.533275432;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.533275432.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.252907504;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.266995656">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1345870358;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1345870358.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.158112594;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1024888872">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.878088610;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.878088610.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1269863797;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1649955251">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1408317164;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1408317164.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1952955663;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.815647281">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2049991319;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2049991319.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1327786652;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1952412023">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1156966402;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1156966402.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.221843384;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.69207764">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.101215392;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.101215392.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.395084413;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1580983018">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1111327922;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1111327922.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1997727141;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1983121931">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2090983707;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2090983707.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1098915509;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.73943424">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.549915963;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.549915963.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.250839638;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1292326580">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.159064838;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.159064838.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1539095664;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.199456434">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1345279923;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1345279923.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.2124210719;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.602824647">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.2074666211;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.2074666211.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.544922025;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.799173013">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2028730121;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2028730121.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.2083040158;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1376641727">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.769652197;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.769652197.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.456530945;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1643947297">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.106596176;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.106596176.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.779323318;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.2142183572">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1535801296;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1535801296.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1946921723;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.198835988">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.535801224;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.535801224.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.457704085;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1441883405">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1083954633;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1083954633.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.352134923;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1727971708">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1741437519;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1741437519.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.796751269;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1787621834">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.89223690;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.89223690.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1678652847;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1091638988">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.933778736;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.933778736.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.366175961;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1776016646">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.166779512;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.166779512.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1001560057;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.462348816">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1318897420;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1318897420.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1203739448;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1185964064">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1770836100;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1770836100.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.749090083;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.37709604">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1118752629;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1118752629.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1704845677;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1450397101">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1964132240;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1964132240.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1315121158;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1575132241">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1571458306;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1571458306.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.531992042;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1746187895">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1061562684;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1061562684.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.621880547;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.371921009">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.953945254;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.953945254.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.231454555;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1675009105">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1047646017;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1047646017.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.24697114;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.2052459627">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.445767005;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.445767005.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1690674893;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1326532219">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2122574820;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2122574820.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.289985929;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.464342336">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.415076960;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.415076960.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.166632907;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1910917995">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1149186334;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1149186334.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.817644755;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.8194889">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.274644264;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.274644264.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.830399788;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1727661886">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.2098157870;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.2098157870.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1353574109;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1713909513">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.656695764;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.656695764.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1137303409;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.586707698">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1900723340;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1900723340.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.2143675680;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1900246873">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1405400129;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1405400129.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.758429278;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.2022893205">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1981066293;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1981066293.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1490734490;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1240660060">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2095729026;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2095729026.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.237468166;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1390292550">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1625843000;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1625843000.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.887669434;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1105021564">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.2071060501;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.2071060501.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.972297230;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.2094282214">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1730046702;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1730046702.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.409545514;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1939906963">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1810864062;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1810864062.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.863006530;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.106637619">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1452064825;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1452064825.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.21936396;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.237904039">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.559721975;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.559721975.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1158256294;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1551052922">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1468304042;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1468304042.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.2103242412;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.271020116">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.394066147;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.394066147.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1803953018;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1354522308">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1069993321;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1069993321.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.791693505;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.108746349">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.470582233;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.470582233.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.2121301534;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.759258969">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1788442882;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1788442882.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1558165730;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.108646853">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1097598877;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1097598877.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1168967313;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1403027229">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1555500462;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1555500462.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.23644712;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1675542410">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.625182945;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.625182945.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.19872200;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.210717303">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.4092322;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.4092322.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1774041263;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1628093541">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1172350652;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1172350652.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1231369535;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1380229965">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1523015243;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1523015243.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1097785642;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.932699670">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.119525747;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.119525747.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.350136667;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1231254247">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.420015176;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.420015176.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1413989541;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.2052683203">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.950604048;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.950604048.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.591238538;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.812815058">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.460353741;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.460353741.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1426328880;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.739069924">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.590223711;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.590223711.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1521569656;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1534290070">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.758419168;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.758419168.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1615558098;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1305861870">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.16764545;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.16764545.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1755485736;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.101648614">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.622072244;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.622072244.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.596543539;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.2117071593">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1251501469;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1251501469.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.2046953652;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.2030619567">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.440285115;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.440285115.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1519894769;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.339950445">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1214705702;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1214705702.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1472771369;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.472129695">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1503505797;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1503505797.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.490372648;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.244913612">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1214078788;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1214078788.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.138254930;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.548808002">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1301838838;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1301838838.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1496159684;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1391379044">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.582596909;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.582596909.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1085220324;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.925573562">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.598914328;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.598914328.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.2069163918;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1796841102">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.485374604;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.485374604.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.12661719;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.629258636">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.656574943;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.656574943.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1584811915;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.7605168">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1743210485;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1743210485.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.119001520;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.16445698">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.153318143;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.153318143.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1995410847;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.407051134">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1167213789;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1167213789.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1424004947;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1394716790">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1226086820;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1226086820.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.203425487;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1140133310">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1761622192;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1761622192.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1383515502;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.884799582">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1354607715;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1354607715.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.2030628580;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.426524976">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1934224466;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1934224466.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.853510478;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1464428175">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.626460066;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.626460066.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1410135032;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.974547961">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.559128388;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.559128388.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1765511256;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1466303090">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>
