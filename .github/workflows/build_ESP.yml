@@ -15,3 +15,5 @@ jobs:
 
       - name: Build ESP Arduino project
         uses: arduino/compile-sketches@v1
+        with: 
+          INPUT_SKETCH-PATHS: 'ESP_PixelFan'
