@@ -16,4 +16,7 @@ jobs:
       - name: Build ESP Arduino project
         uses: arduino/compile-sketches@v1
         with: 
+          fqbn: 'esp8266:esp8266:generic'
+          platforms: 'esp8266:esp8266'
           sketch-paths: 'ESP_PixelFan'
+          verbose: true
