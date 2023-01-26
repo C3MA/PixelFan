@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Build ESP Arduino project
-        uses: arduino/compile-sketches
+        uses: arduino/compile-sketches@v1
