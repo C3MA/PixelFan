@@ -1,4 +1,5 @@
 [![Build STM32 Project](https://github.com/C3MA/PixelFan/actions/workflows/build_STM32.yml/badge.svg)](https://github.com/C3MA/PixelFan/actions/workflows/build_STM32.yml)
+[![Build ESP Project](https://github.com/C3MA/PixelFan/actions/workflows/build_ESP.yml/badge.svg)](https://github.com/C3MA/PixelFan/actions/workflows/build_ESP.yml)
 
 
 # Projektbeschreibung
