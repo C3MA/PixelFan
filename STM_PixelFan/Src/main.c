@@ -55,7 +55,7 @@ TIM_HandleTypeDef htim15;
 #define LINES_PER_ROUND 180		//255
 #define LINES_DIFF ((LINES_PER_ROUND / 3) * 26)
 #define LEDS_PER_LINE 26
-#define LINE_ZERO_OFFSET 40
+#define LINE_ZERO_OFFSET 95	     //lower values = rotate clockwise, bigger value = rotate counter clockwise
 #define IMAGE_BUFF_SIZE LINES_PER_ROUND*LEDS_PER_LINE
 
 uint8_t frameStart[4] = {0,0,0,0};
@@ -679,10 +679,10 @@ void TIM1_InputCapture_IRQ()
 
 }
 
-SPI2_DMA_Irq()	//SPI vom ESP
+void SPI2_DMA_Irq()	//SPI vom ESP
 {
 	//restart DMA
-	spi2DmaStart(ledBuff, IMAGE_BUFF_SIZE*4);
+	spi2DmaStart((uint8_t*)ledBuff, IMAGE_BUFF_SIZE*4);
 }
 
 void clearAllLEDs()
