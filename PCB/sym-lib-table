@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name 74HCT1G125GW)(type Legacy)(uri ${KIPRJMOD}/lib/74HCT1G125GW/74HCT1G125GW.lib)(options "")(descr "")(disabled))
+  (lib (name PixelFan-rescue)(type Legacy)(uri ${KIPRJMOD}/PixelFan-rescue.lib)(options "")(descr ""))
+  (lib (name LM397)(type Legacy)(uri ${KIPRJMOD}/lib/LM397.lib)(options "")(descr ""))
+  (lib (name STM32G070KxTx)(type Legacy)(uri ${KIPRJMOD}/lib/STM32G070KxTx.lib)(options "")(descr ""))
+  (lib (name SCA610-E28H1A)(type Legacy)(uri ${KIPRJMOD}/lib/SCA610-E28H1A.lib)(options "")(descr ""))
+  (lib (name 74HCT125)(type Legacy)(uri ${KIPRJMOD}/lib/74HCT125.lib)(options "")(descr ""))
+  (lib (name LED_Leiste)(type Legacy)(uri ${KIPRJMOD}/lib/LED_Leiste.lib)(options "")(descr ""))
+)
